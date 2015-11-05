@@ -1,4 +1,5 @@
-from dockerfile/java
+FROM java:openjdk-8u45-jre
+
 MAINTAINER Discovery Dev <adsdiscoveryteam@pillartechnology.com>
  
 # RUN echo "deb http://archive.ubuntu.com/ubuntu trusty main universe" > /etc/apt/sources.list
